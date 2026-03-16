@@ -1,22 +1,25 @@
+import React from "react";
+import Card from './components/Card'
+import Navbar from "./components/navbar";
 
-function App() {
-  // return 'hello, what are you doing?'
 
-  // - you can return html element also
-
+const App = () => {
   return (
-    <>
-      <div>
-        <h1> Hello h1</h1>
-        <h2> Hello h2</h2>
-      </div>
+    <div>
+      <Navbar />
+      <Navbar />
+      {Card()}
+      {Card()}{" "}
+      {/* you can use both method but you need to use {...} to call the function in this method */}
 
-      <div>                 
-        <h3> Hello h3</h3>
-        <h4> Hello h4</h4>
-      </div>
-    </>
-  );  // - these was the use of fragments.
-}  
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      
+
+    </div>
+  );
+};
 
 export default App;
