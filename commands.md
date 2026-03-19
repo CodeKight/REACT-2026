@@ -12,3 +12,7 @@ npm create vite@latest
   npm install
   npm run dev
 
+# to install icons in react 
+npm install lucide-react
+
+
