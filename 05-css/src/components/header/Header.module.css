@@ -1,0 +1,19 @@
+
+.header 
+{  
+    background-color: lightblue;
+    border: 10px solid blue; 
+    padding: 20px; 
+    width: 100vh;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.btn{
+    margin-top: 10px;
+    background-color: green;
+}
+
+.logo{
+    text-decoration: underline;
+}
