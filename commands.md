@@ -15,4 +15,9 @@ npm create vite@latest
 # to install icons in react 
 npm install lucide-react
 
+# to install tailwind css
+
+npm install tailwindcss @tailwindcss/vite
+
+
 

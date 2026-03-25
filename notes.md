@@ -17,6 +17,11 @@ index.html -----> main.jsx ------> App.jsx
    The react folder will be created and run.
 
 
+# steps to integrate tailwind with react/vite
+
+- 
+
+
    
 
 
